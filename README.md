@@ -1,3 +1,9 @@
+# SPOTIFY Gesture controll system
+![header](header.png)
+
+
+## Project structure
+```sh
 gesture_control/
 │
 ├── main.py
@@ -13,3 +19,12 @@ gesture_control/
     ├── __init__.py
     ├── logger.py
     └── warnings_handler.py
+```
+
+
+## Environment variables
+```sh
+SPOTIPY_CLIENT_ID='XXX'
+SPOTIPY_CLIENT_SECRET='XXX'
+SPOTIPY_REDIRECT_URI='http://localhost:8888/callback'
+```
